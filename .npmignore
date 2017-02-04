@@ -16,6 +16,12 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
-#System Files
+# System Files
 .DS_Store
 Thumbs.db
+
+# Dev files
+users.json
+build.js
+.travis.yml
+.gitignore
