@@ -4,11 +4,13 @@
   "scripts": {
     "build": "rimraf dist && node build.js",
     "commit": "git-cz",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "postpublish": "greenkeeper-postpublish"
   },
   "devDependencies": {
     "commitizen": "2.9.5",
     "cz-conventional-changelog": "1.2.0",
+    "greenkeeper-postpublish": "1.0.1",
     "rimraf": "2.5.4",
     "semantic-release": "^6.3.2"
   },
