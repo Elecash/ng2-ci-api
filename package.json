@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "ng2-ci-api",
   "version": "0.0.0-development",
   "scripts": {
     "build": "rimraf dist && node build.js",
