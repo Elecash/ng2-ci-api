@@ -7,7 +7,6 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "devDependencies": {
-    "commit": "git-cz",
     "commitizen": "2.9.5",
     "cz-conventional-changelog": "1.2.0",
     "rimraf": "2.5.4",
