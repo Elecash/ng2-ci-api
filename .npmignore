@@ -25,3 +25,6 @@ users.json
 build.js
 .travis.yml
 .gitignore
+
+# Include
+!dist/users.json
